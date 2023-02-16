@@ -5,3 +5,7 @@ h1, p {
 li:hover {
     background-color: #ff4500;
 }
+
+li:active {
+    font-family: sans-serif;
+}
