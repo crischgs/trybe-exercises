@@ -12,6 +12,8 @@ div:nth-of-type(2) {
 
 div:nth-of-type(3) {
     background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 div:nth-of-type(4) {
