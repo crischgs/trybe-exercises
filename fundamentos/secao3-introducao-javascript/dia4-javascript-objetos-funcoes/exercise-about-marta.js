@@ -20,3 +20,5 @@ for (let index = 0; index < player['bestInTheWorld'].length; index += 1) {
 }
 
 console.log('A jogadora', player.firstName, player.lastName, 'foi eleita a melhor do mundo', wins, 'vezes.');
+
+console.log('A jogadora possui', player.medals.golden, 'medalhas de ouro e', player.medals.silver, 'medalhas de prata.');
