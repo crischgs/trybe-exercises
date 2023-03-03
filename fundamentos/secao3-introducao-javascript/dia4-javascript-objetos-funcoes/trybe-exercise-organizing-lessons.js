@@ -36,3 +36,10 @@ function calcSize (object) {
 }
 
 console.log(calcSize(lesson2));
+
+function listValues (object) {
+    console.log(Object.values(object));
+}
+
+listValues(lesson3);
+
