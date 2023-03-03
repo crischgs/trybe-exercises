@@ -68,3 +68,14 @@ function getValueByNumber(obj, number) {
 }
 
 console.log(getValueByNumber(lesson2, 3));
+
+function verifyPair(obj, key, value) {
+    let entries = Object.entries(obj);
+    let isEqual = false;
+    for (let index in entries) {
+        if (entries[index][0] === key && entries[index][1] === value) isEqual = true;
+    }
+    return isEqual;
+}
+
+console.log(verifyPair(lesson1, 'professor', 'Maria Clara'));
