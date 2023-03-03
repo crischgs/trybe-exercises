@@ -62,3 +62,9 @@ function numberOfStudents(object) {
 }
 
 console.log(numberOfStudents(allLessons));
+
+function getValueByNumber(obj, number) {
+    return Object.values(obj)[number];
+}
+
+console.log(getValueByNumber(lesson2, 3));
