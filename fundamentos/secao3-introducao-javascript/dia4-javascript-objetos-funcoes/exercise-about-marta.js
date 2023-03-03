@@ -1,5 +1,5 @@
 let player = {
-    name: 'Marta',
+    firstName: 'Marta',
     lastName: 'Silva',
     age: 34,
     medals: {
@@ -7,3 +7,5 @@ let player = {
         silver: 3
     }
 }
+
+console.log('A jogadora', player.firstName, player.lastName, 'tem', player.age, 'anos de idade.');
