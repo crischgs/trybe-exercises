@@ -30,3 +30,9 @@ function listKeys (object) {
 }
 
 listKeys(lesson3);
+
+function calcSize (object) {
+    return Object.keys(object).length;
+}
+
+console.log(calcSize(lesson2));
