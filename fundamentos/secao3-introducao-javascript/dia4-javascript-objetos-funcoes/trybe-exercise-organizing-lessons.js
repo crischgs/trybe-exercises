@@ -50,3 +50,15 @@ let allLessons = Object.assign({}, {
 });
 
 console.log(allLessons);
+
+
+function numberOfStudents(object) {
+    let total = 0;
+    let keys = Object.keys(object);
+    for (index in keys) {
+        total += object[keys[index]].numeroEstudantes;
+    }
+    return total;
+}
+
+console.log(numberOfStudents(allLessons));
