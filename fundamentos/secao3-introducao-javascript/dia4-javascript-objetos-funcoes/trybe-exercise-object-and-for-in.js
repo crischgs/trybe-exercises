@@ -10,6 +10,10 @@ info['recorrente'] = 'Sim';
 
 console.log(info);
 
-for (key in info) {
+for (let key in info) {
     console.log(key);
+}
+
+for (let key in info) {
+    console.log(info[key]);
 }
