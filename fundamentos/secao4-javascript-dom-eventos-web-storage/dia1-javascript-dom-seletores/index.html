@@ -3,11 +3,13 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <p id="paragraph" class="teste1">Dê uma cor para este parágrafo!</p>
       <h4 id="subtitle">Subtítulo</h4>
-      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p id="second-paragraph" class="teste1">Segundo parágrafo!</p>
     </header>
     <script>
+      document.getElementsByClassName("teste1")[0].style = "font-family: sans-serif";
+      document.getElementsByTagName('h4')[0].style.color = 'grey';
     document.getElementById("page-title").innerText = "Projeto Almanaque";
     document.getElementById("paragraph").innerText = "Simplesmente o melhor filme aleatório que já assisti.";
     document.getElementById("subtitle").innerText = "Tem na Amazon Prime!";
