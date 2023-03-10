@@ -52,3 +52,5 @@ h33.className = 'description';
 mainTag.removeChild(leftSection);
 
 rightSection.style = 'margin-right: auto';
+
+centerSection.style = 'background-color: green;'
