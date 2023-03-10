@@ -21,3 +21,8 @@ mainTag.appendChild(leftSection);
 const rightSection = document.createElement('section');
 rightSection.className = 'right-content';
 mainTag.appendChild(rightSection);
+
+const pic = document.createElement('img');
+pic.src = 'https://picsum.photos/200';
+pic.className = 'small-image';
+leftSection.appendChild(pic);
