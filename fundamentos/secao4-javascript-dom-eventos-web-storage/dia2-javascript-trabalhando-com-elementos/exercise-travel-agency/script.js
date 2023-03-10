@@ -35,3 +35,10 @@ for (let index = 0; index < numbers.length; index += 1) {
     list.appendChild(items);
     items.innerText = numbers[index];
 }
+
+const h31 = document.createElement('h3');
+mainTag.appendChild(h31);
+const h32 = document.createElement('h3');
+mainTag.appendChild(h32);
+const h33 = document.createElement('h3');
+mainTag.appendChild(h33);
