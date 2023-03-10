@@ -13,3 +13,7 @@ mainTag.appendChild(centerSection);
 const pFilhoSection = document.createElement('p');
 pFilhoSection.innerText = 'A Trybe pode te levar para o destino mais desejado de todos: o sucesso!';
 centerSection.appendChild(pFilhoSection);
+
+const leftSection = document.createElement('section');
+leftSection.className = 'left-content';
+mainTag.appendChild(leftSection);
