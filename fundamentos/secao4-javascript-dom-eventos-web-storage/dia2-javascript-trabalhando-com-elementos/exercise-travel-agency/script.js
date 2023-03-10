@@ -26,3 +26,12 @@ const pic = document.createElement('img');
 pic.src = 'https://picsum.photos/200';
 pic.className = 'small-image';
 leftSection.appendChild(pic);
+
+const numbers = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+const list = document.createElement('ul');
+rightSection.appendChild(list);
+for (let index = 0; index < numbers.length; index += 1) {
+    const items = document.createElement('li');
+    list.appendChild(items);
+    items.innerText = numbers[index];
+}
