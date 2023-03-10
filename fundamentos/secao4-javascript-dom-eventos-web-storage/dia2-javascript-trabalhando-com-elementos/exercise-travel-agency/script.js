@@ -17,3 +17,7 @@ centerSection.appendChild(pFilhoSection);
 const leftSection = document.createElement('section');
 leftSection.className = 'left-content';
 mainTag.appendChild(leftSection);
+
+const rightSection = document.createElement('section');
+rightSection.className = 'right-content';
+mainTag.appendChild(rightSection);
