@@ -54,3 +54,7 @@ mainTag.removeChild(leftSection);
 rightSection.style = 'margin-right: auto';
 
 centerSection.style = 'background-color: green;'
+
+const ul = document.getElementsByTagName('ul')[0];
+ul.lastChild.remove();
+ul.lastChild.remove();
