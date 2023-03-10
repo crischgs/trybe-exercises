@@ -45,3 +45,6 @@ mainTag.appendChild(h33);
 
 headingOne.className = 'title';
 
+h31.className = 'description';
+h32.className = 'description';
+h33.className = 'description';
