@@ -42,3 +42,6 @@ const h32 = document.createElement('h3');
 mainTag.appendChild(h32);
 const h33 = document.createElement('h3');
 mainTag.appendChild(h33);
+
+headingOne.className = 'title';
+
