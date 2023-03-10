@@ -50,3 +50,5 @@ h32.className = 'description';
 h33.className = 'description';
 
 mainTag.removeChild(leftSection);
+
+rightSection.style = 'margin-right: auto';
