@@ -48,3 +48,5 @@ headingOne.className = 'title';
 h31.className = 'description';
 h32.className = 'description';
 h33.className = 'description';
+
+mainTag.removeChild(leftSection);
