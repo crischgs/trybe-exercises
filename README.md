@@ -1,2 +1,2 @@
-# Meu repositório de exercícios na Trybe.
-Exercícios desenvolvidos durante minha formação Full-Stack na Trybe.
+# Exercises practiced at Trybe
+Codes I developed and practiced during my Full-Stack Web training at Trybe.
