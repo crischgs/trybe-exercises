@@ -1,0 +1,56 @@
+* {
+  font-family: sans-serif;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: darkslategray;
+}
+
+.header-img {
+  height: 50px;
+}
+
+.header-title {
+  font-variant-caps: all-small-caps;
+  color: white;
+}
+
+.header-login {
+  font-variant-caps: all-petite-caps;
+  color: white;
+}
+
+.text-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-card {
+  justify-content: space-between;
+  width: 100px;
+}
+
+.gallery img {
+  width: 80%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container img {
+  width: 30px;
+  margin-right: 3px;
+}
