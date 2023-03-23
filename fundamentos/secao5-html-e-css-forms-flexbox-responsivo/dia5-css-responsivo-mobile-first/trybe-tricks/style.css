@@ -77,3 +77,15 @@ body {
     display: flex;
   }
 }
+
+@media screen and (min-width:950px) {
+  .card:nth-of-type(3) {
+    display: flex;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .card:nth-of-type(3) {
+    display: flex;
+  }
+}
