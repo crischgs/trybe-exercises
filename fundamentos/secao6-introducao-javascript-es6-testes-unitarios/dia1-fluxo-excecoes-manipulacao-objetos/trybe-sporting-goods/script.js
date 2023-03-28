@@ -35,7 +35,7 @@ const showPromo = (name, number) => {
       ${productObject.product} no valor de R$ ${productObject.price}`;
   } catch(err) {
     secondText.innerHTML = err.message;
-  }
+  } 
 }
 
 const checkName = (name) => {
