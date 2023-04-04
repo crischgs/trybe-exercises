@@ -28,3 +28,10 @@ const dragonAttack = (dragon) => {
 
   return dragonDmg;
 };
+
+const warriorAttack = (warrior) => {
+  const minDmg = warrior.strength;
+  const maxDmg = Math.floor(Math.random() *(minDmg * warrior.weaponDmg));
+  const warriorDmg = maxDmg > minDmg ? maxDmg : minDmg;
+  return warriorDmg;
+};
