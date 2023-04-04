@@ -78,3 +78,10 @@ const smallerName = () => {
 const getNamedBook = () => {
   return books.find((book) => book.name.length === 26);
 }
+
+const everyoneWasBornOnSecXX = () => {
+  return books.every((book) => (
+    book.author.birthYear >= 1901 && book.author.birthYear <= 2000
+  ));
+}
+
