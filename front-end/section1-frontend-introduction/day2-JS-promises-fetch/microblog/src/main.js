@@ -35,5 +35,9 @@ usersSelect.addEventListener('change', () => {
     .then((data) => {
       const { comments } = data;
       fillFeaturedPostComments(comments)
+    })
+    .catch((Error) => {
+      fillErrorMessage('Error retrieving information.');
+      console.log(error.message);
     });
 });
