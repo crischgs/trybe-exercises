@@ -26,5 +26,14 @@ usersSelect.addEventListener('change', () => {
     .then(data => {
       const { posts } = data;
       fillPosts(posts);
+
+      const [featuredPost] = posts;
+      const COMMENTS_API = `https://dummyjson.com/posts/${featuredPost.id}/comments`;
+      return fetch(COMMENTS_API);
     })
+    .then((res) => res.json())
+    .then((data) => {
+      const { comments } = data;
+      fillFeaturedPostComments(comments)
+    });
 });
