@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+main {
+  background-color: #151515;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 160px;
+  height: 240px;
+  border: 1px solid #e74b10;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #e74b10;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin-bottom: 19.92px;
+  cursor: pointer;
+}

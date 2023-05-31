@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "dependencies": {
+    "vite": "^4.3.9"
+  }
+}
