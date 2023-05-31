@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "sweetalert2": "^11.7.10",
     "vite": "^4.3.9"
   }
 }
