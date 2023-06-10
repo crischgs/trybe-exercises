@@ -1,15 +1,8 @@
 import './App.css'
-import Title from './components/title';
-import Modules from './components/modules';
+import HelloWorld from './components/hello-world';
 
 function App() {
-
-  return (
-    <div>
-      <Title />
-      <Modules />
-    </div>
-  )
+  return <HelloWorld />
 }
 
 export default App
